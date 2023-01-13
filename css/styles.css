@@ -1,0 +1,141 @@
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+.hide {
+  display: none !important;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 2rem 0 2rem;
+  position: relative;
+  background-color: hsl(37, 64%, 92%);
+}
+
+#img-nav-hamburger {
+  width: 24px;
+  height: 20px;
+}
+
+.div-nav-lists {
+  position: absolute;
+  top: 2.75rem;
+  right: 1.5rem;
+}
+
+/* Main */
+.div-hero {
+  padding: 0 2rem 2rem 2rem;
+}
+
+.div-hero {
+  background-color: hsl(37, 64%, 92%);
+}
+
+.span-rating {
+  display: flex;
+  align-items: center;
+}
+
+.img-rating {
+  display: block;
+  width: 18px;
+  height: 18px;
+}
+
+.img-rating:last-of-type {
+  margin-right: 1rem;
+}
+
+#img-hero {
+  display: block;
+  margin: -2rem 0 2rem 0;
+}
+
+.div-hero > div > h2 {
+  width: 75%;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.div-hero > div > div {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+#btn-free-trial {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  background-color: hsl(258, 83%, 45%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+#btn-examples {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  color: hsl(258, 83%, 45%);
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.div-feature {
+  display: flex;
+  align-items: center;
+}
+
+.img-checkmark {
+  width: 24px;
+  height: 24px;
+  margin-right: .5rem;
+}
+
+.div-why-fiber {
+  padding: 2rem;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.div-why-fiber > h4 {
+  color: hsl(258, 83%, 45%);
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.div-why-fiber > h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.list-item-feature {
+  margin-bottom: 2rem;
+}
+
+#img-stop-watch, #img-code, #img-responsiveness {
+  width: 40px;
+  height: 40px;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.list-item-feature > h5 {
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+
+
+
+
+
+
