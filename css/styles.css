@@ -31,7 +31,7 @@ header {
   width: calc(100% - 4rem);
   padding: 1rem;
   position: absolute;
-  top: 3.75rem;
+  top: 3.5rem;
   right: 2rem;
   z-index: 2;
   text-align: center;
@@ -41,6 +41,10 @@ header {
 
 .list-nav-links {
   margin-bottom: 1rem;
+}
+
+.list-nav-links > li:hover {
+  text-decoration: underline;
 }
 
 .list-nav-links > li, .list-cta > li {
@@ -56,13 +60,25 @@ header {
   margin-bottom: .5rem;
 }
 
+#btn-sign-in:hover {
+  background-color: hsl(258, 83%, 45%);
+  border-color: hsl(258, 83%, 45%);
+  color: hsl(0, 0%, 100%);
+}
+
 #btn-sign-up {
   display: block;
   width: 100%;
   padding: .5rem;
+  border: 1px solid hsl(258, 83%, 45%);
   border-radius: 6px;
   background-color: hsl(258, 83%, 45%);
   color: hsl(0, 0%, 100%);
+}
+
+#btn-sign-up:hover {
+  background-color: hsl(258, 69%, 68%);
+  border-color: hsl(258, 69%, 68%);
 }
 
 /* Main */
@@ -116,6 +132,11 @@ header {
   margin-bottom: 1rem;
 }
 
+#btn-free-trial:hover {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(258, 69%, 68%);
+}
+
 #btn-examples {
   display: block;
   width: 100%;
@@ -123,6 +144,10 @@ header {
   color: hsl(258, 83%, 45%);
   font-weight: 700;
   text-decoration: underline;
+}
+
+#btn-examples:hover {
+  color: hsl(258, 69%, 68%);
 }
 
 .div-feature {
@@ -202,6 +227,11 @@ header {
   border-radius: 6px;
 }
 
+.btn-cta:hover {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(258, 69%, 68%);
+}
+
 .div-img-wrapper {
   width: 288px;
   height: 350px;
@@ -263,6 +293,12 @@ header {
   border-radius: 6px;
 }
 
+.list-item-testimonial > button:hover {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(258, 83%, 45%);
+  border-color: hsl(258, 83%, 45%);
+}
+
 /* Footer */
 footer {
   padding: 4rem 2rem;
@@ -294,6 +330,10 @@ footer > div > div {
 
 .list-sublist-links > li {
   margin-bottom: .5rem;
+}
+
+.list-sublist-links > li:hover {
+  text-decoration: underline;
 }
 
 footer > div:last-of-type, .list-item-sublist:last-of-type, .list-sublist-links > li:last-of-type {
