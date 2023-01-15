@@ -7,6 +7,10 @@ body {
   display: none !important;
 }
 
+#img-nav-hamburger, .list-nav-links > li, #btn-sign-in, #btn-sign-up, #btn-free-trial, #btn-examples, .btn-cta, .list-item-testimonial > button, .list-sublist-links > li {
+  cursor: pointer;
+}
+
 /* Header */
 
 header {
@@ -24,9 +28,41 @@ header {
 }
 
 .div-nav-lists {
+  width: calc(100% - 4rem);
+  padding: 1rem;
   position: absolute;
-  top: 2.75rem;
-  right: 1.5rem;
+  top: 3.75rem;
+  right: 2rem;
+  z-index: 2;
+  text-align: center;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 6px;
+}
+
+.list-nav-links {
+  margin-bottom: 1rem;
+}
+
+.list-nav-links > li, .list-cta > li {
+  margin-bottom: .25rem;
+}
+
+#btn-sign-in {
+  display: block;
+  width: 100%;
+  padding: .5rem;
+  border-radius: 6px;
+  border: 1px solid black;
+  margin-bottom: .5rem;
+}
+
+#btn-sign-up {
+  display: block;
+  width: 100%;
+  padding: .5rem;
+  border-radius: 6px;
+  background-color: hsl(258, 83%, 45%);
+  color: hsl(0, 0%, 100%);
 }
 
 /* Main */
@@ -228,3 +264,38 @@ header {
 }
 
 /* Footer */
+footer {
+  padding: 4rem 2rem;
+  background-color: hsl(37, 64%, 92%);
+}
+
+footer > div {
+  margin-bottom: 2rem;
+}
+
+footer > div > h2 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+footer > div > div {
+  width: 85%;
+  margin-bottom: 1rem;
+}
+
+.list-item-sublist {
+  margin-bottom: 2rem;
+}
+
+.list-item-sublist > h4 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.list-sublist-links > li {
+  margin-bottom: .5rem;
+}
+
+footer > div:last-of-type, .list-item-sublist:last-of-type, .list-sublist-links > li:last-of-type {
+  margin-bottom: 0;
+}
