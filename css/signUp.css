@@ -1,0 +1,85 @@
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+header {
+  padding: 4rem 2rem;
+}
+
+header > h1 {
+  font-weight: 700;
+}
+
+main {
+  padding: 0 2rem;
+}
+
+h2 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+
+label > input {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  margin-top: .5rem;
+  border: 1px solid black;
+  border-radius: 6px;
+  font-weight: 400;
+}
+
+#label-checkmark {
+  display: flex;
+  align-items: flex-start;
+  margin-top: .5rem;
+}
+
+#label-checkmark > div {
+  width: 85%;
+  font-size: 1.15rem;
+}
+
+#label-checkmark > div > b {
+  font-weight: 700;
+  color: hsl(258, 83%, 45%);
+  text-decoration: underline;
+}
+
+#input-checkmark {
+  width: 16px;
+  height: auto;
+  margin-top: 0;
+  margin-right: .5rem;
+}
+
+#input-submit {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: hsl(258, 83%, 45%);
+  border-radius: 6px;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+}
+
+#div-sign-in {
+  text-align: center;
+}
+
+#btn-sign-in {
+  color: hsl(258, 83%, 45%);
+}
+
+
+
+

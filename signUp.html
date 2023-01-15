@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./css/reset.css">
+  <link rel="stylesheet" type="text/css" href="./css/signUp.css">
+  <title>Fiber || Sign Up</title>
+</head>
+<body>
+  <header>
+    <h1>Fiber</h1>
+  </header>
+  <main>
+    <h2>Create your Fiber account</h2>
+    <form>
+      <label>
+        Your Name
+        <input id="input-name" type="text" placeholder="John Doe"/>
+      </label>
+      <label>
+        E-mail
+        <input id="input-email" type="text" placeholder="john@example.com"/>
+      </label>
+      <label>
+        Password
+        <input id="input-password" type="text" placeholder="At least 8 characters"/>
+      </label>
+      <label id="label-checkmark">
+        <input id="input-checkmark" type="checkbox"/>
+        <div>By creating an account on Fiber, you agree to the <b>Terms & Conditions</b>.</div>
+      </label>
+      <input id="input-submit" type="submit" value="Create Fiber Account"/>
+    </form>
+    <div id="div-sign-in">Already have an account? <button id="btn-sign-in">Sign in</button></div>
+  </main>
+</body>
