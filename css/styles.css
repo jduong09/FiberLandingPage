@@ -18,7 +18,7 @@ header {
   justify-content: space-between;
   padding: 2rem 2rem 0 2rem;
   position: relative;
-  background-color: hsl(37, 64%, 92%);
+  background-color: hsl(37, 61%, 96%);
 }
 
 h1 {
@@ -90,7 +90,7 @@ h1 {
 }
 
 .div-hero {
-  background-color: hsl(37, 64%, 92%);
+  background-color: hsl(37, 61%, 96%);;
 }
 
 .span-rating {
@@ -209,13 +209,13 @@ h1 {
   color: hsl(0, 0%, 100%);
 }
 
-.div-diversify > h3 {
+.div-diversify > div > h3 {
   font-size: 2.25rem;
   font-weight: 700;
   margin-bottom: 1rem;
 }
 
-.div-diversify > div:first-of-type {
+.div-diversify > div:first-of-type > div  {
   width: 80%;
   margin-bottom: 1rem;
 }
@@ -305,7 +305,7 @@ h1 {
 /* Footer */
 footer {
   padding: 4rem 2rem;
-  background-color: hsl(37, 64%, 92%);
+  background-color: hsl(37, 61%, 96%);
 }
 
 footer > div {
@@ -466,5 +466,66 @@ footer > div:last-of-type, .list-item-sublist:last-of-type, .list-sublist-links 
 
   .list-item-feature {
     width: 32.5%;
+  }
+
+  .list-item-feature > div {
+    width: 80%;
+  }
+
+  .div-diversify {
+    display: flex;
+    align-items: center;
+  }
+
+  .div-diversify > div:first-of-type {
+    width: 50%;
+  }
+
+  .div-diversify > div:first-of-type > div {
+    font-size: 1.2rem;
+  }
+
+  .btn-cta {
+    width: fit-content;
+    font-weight: 700;
+  }
+
+  .div-img-wrapper {
+    width: 60%;
+    height: auto;
+  }
+
+  #img-diversify-example {
+    width: 100%;
+    height: auto;
+    position: initial;
+    transform: initial;
+  }
+
+  .list-testimonials {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .list-item-testimonial {
+    width: 32.5%;
+  }
+
+  footer {
+    display: flex;
+    padding: 3rem 6rem;
+  }
+
+  footer > div:first-of-type {
+    width: 32%;
+  }
+
+  footer > .footer-nav {
+    width: 65%;
+  }
+
+  .list-footer-helpful-lists {
+    display: flex;
+    justify-content: space-between;
   }
 }
