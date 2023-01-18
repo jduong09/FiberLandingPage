@@ -1,6 +1,8 @@
 body {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
+  position: relative;
+  min-height: 100vh;
 }
 
 .hide {
@@ -120,5 +122,75 @@ label > input, #label-password > div > input {
 }
 
 .div-features {
+  padding: 6rem;
   background-color: hsl(258, 83%, 45%);
+  color: hsl(0, 0%, 100%);
+}
+
+.img-unparalled-templates {
+  display: block;
+  width: 90%;
+  height: auto;
+  margin: 0 auto 1rem auto;
+}
+
+.list-item-feature > div {
+  text-align: center;
+}
+
+.list-item-feature > div > h3 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.list-item-feature > div > div {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.list-buttons {
+  width: 15%;
+  margin: 1rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.span-button {
+  display: block;
+  width: 12px;
+  height: 12px;
+  background-color: rgb(179, 179, 179);
+  border-radius: 50%;
+}
+
+.span-button.active {
+  background-color: hsl(0, 0%, 100%);
+}
+
+@media (min-width: 1200px) {
+  header {
+    padding: 2rem 6rem;
+  }
+
+  main {
+    display: flex;
+    padding: 0 6rem;
+  }
+
+  header, .div-sign-up, .div-features {
+    width: 50%;
+  }
+
+  .div-sign-up {
+    padding-right: 3rem;
+  }
+
+  .div-features {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+  }
 }
