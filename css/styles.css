@@ -405,7 +405,7 @@ footer > div:last-of-type, .list-item-sublist:last-of-type, .list-sublist-links 
     height: auto;
   }
 
-  .list-item-testimonial > div:nth-of-type(2n) {
+  .list-item-testimonial > div:nth-of-type(2n), .list-item-testimonial > button {
     font-size: 1rem;
   }
 
@@ -420,6 +420,34 @@ footer > div:last-of-type, .list-item-sublist:last-of-type, .list-sublist-links 
 
   .list-item-sublist {
     flex: 2 50%;
+  }
+}
+
+@media (min-width: 922px) {
+  #img-hero {
+    width: 50%;
+  }
+
+  .div-hero > div > h2 {
+    font-size: 3rem;
+  }
+
+  .div-hero > div > div:first-of-type {
+    width: 85%;
+  }
+
+  .div-why-fiber > h3 {
+    width: 85%;
+  }
+
+  .list-features {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .list-item-feature {
+    width: 30%;
   }
 }
 
