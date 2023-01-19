@@ -343,6 +343,86 @@ footer > div:last-of-type, .list-item-sublist:last-of-type, .list-sublist-links 
   margin-bottom: 0;
 }
 
+@media (min-width: 767px) {
+  header {
+    padding: 2rem 4rem 0 4rem;
+  }
+
+  .div-nav-lists {
+    width: 30%;
+    right: 4rem;
+    text-align: end;
+  }
+
+  .div-hero {
+    padding: 0 4rem 2rem 4rem;
+  }
+
+  .div-hero > div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .div-hero > div > div {
+    font-size: 1rem;
+  }
+
+  #btn-free-trial {
+    width: fit-content;
+    margin-right: 2rem;
+  }
+
+  #btn-examples {
+    width: 60%;
+    text-align: start;
+  }
+
+  .div-feature {
+    margin-right: 1rem;
+  }
+
+  #img-hero {
+    width: 65%;
+    margin: -2rem auto 2rem auto;
+  }
+
+  .div-why-fiber {
+    padding: 2rem 4rem;
+  }
+
+  .btn-cta {
+    width: fit-content;
+  }
+
+  .div-img-wrapper {
+    width: 577px;
+    height: 350px;
+    margin: 0 auto -2rem auto;
+  }
+
+  #img-diversify-example {
+    width: 577px;
+    height: auto;
+  }
+
+  .list-item-testimonial > div:nth-of-type(2n) {
+    font-size: 1rem;
+  }
+
+  footer {
+    padding: 4rem;
+  }
+
+  .list-footer-helpful-lists {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .list-item-sublist {
+    flex: 2 50%;
+  }
+}
+
 @media (min-width: 1400px) {
   header {
     padding: 2rem 6rem 0 6rem;
