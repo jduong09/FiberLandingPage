@@ -591,42 +591,24 @@ footer > div:last-of-type, .list-item-sublist:last-of-type, .list-sublist-links 
   }
 
   .div-hero {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     padding: 4rem 6rem 2rem 6rem;
   }
 
   #img-hero {
-    order: 2;
     display: block;
     width: 45%;
     height: auto;
   }
 
-  .div-hero > div {
-    order: 1;
+  .div-hero > div {    
     width: 55%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  .div-hero > div > .span-rating {
-    display: flex;
   }
 
   .div-hero > div > h2 {
     font-size: 3.75rem;
-    width: auto;
-  }
-
-  .div-hero > div > div {
-    font-size: 1rem;
   }
 
   #btn-free-trial {
-    width: fit-content;
     margin-right: 2rem;
   }
 
@@ -647,11 +629,6 @@ footer > div:last-of-type, .list-item-sublist:last-of-type, .list-sublist-links 
     width: 50%;
   }
 
-  .list-features {
-    display: flex;
-    justify-content: space-between;
-  }
-
   .list-item-feature {
     width: 32.5%;
   }
@@ -660,27 +637,8 @@ footer > div:last-of-type, .list-item-sublist:last-of-type, .list-sublist-links 
     width: 80%;
   }
 
-  .div-diversify {
-    display: flex;
-    align-items: center;
-  }
-
-  .div-diversify > div:first-of-type {
-    width: 50%;
-  }
-
-  .div-diversify > div:first-of-type > div {
-    font-size: 1.2rem;
-  }
-
   .btn-cta {
-    width: fit-content;
     font-weight: 700;
-  }
-
-  .div-img-wrapper {
-    width: 60%;
-    height: auto;
   }
 
   #img-diversify-example {
@@ -710,10 +668,5 @@ footer > div:last-of-type, .list-item-sublist:last-of-type, .list-sublist-links 
 
   footer > .footer-nav {
     width: 65%;
-  }
-
-  .list-footer-helpful-lists {
-    display: flex;
-    justify-content: space-between;
   }
 }
