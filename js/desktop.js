@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const divNavLists = document.querySelector('.div-nav-lists');
   const spanRating = document.querySelector('.span-rating');
 
-  if (window.innerWidth > 1400) {
+  if (window.innerWidth > 1200) {
     imgNavHamburger.classList.add('hide');
     divNavLists.classList.remove('hide');
     spanRating.classList.remove('hide');
@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   window.addEventListener('resize', () => {
-    if (window.innerWidth > 1400) {
+    if (window.innerWidth > 1200) {
       imgNavHamburger.classList.add('hide');
       divNavLists.classList.remove('hide');
       spanRating.classList.remove('hide');

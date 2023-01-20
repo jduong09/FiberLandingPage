@@ -451,11 +451,7 @@ footer > div:last-of-type, .list-item-sublist:last-of-type, .list-sublist-links 
   }
 }
 
-@media (min-width: 1400px) {
-  header {
-    padding: 2rem 6rem 0 6rem;
-  }
-
+@media (min-width: 1200px) {
   nav {
     width: 60%;
   }
@@ -497,17 +493,101 @@ footer > div:last-of-type, .list-item-sublist:last-of-type, .list-sublist-links 
     margin-bottom: 0;
     font-weight: 700;
   }
-  
-  #btn-sign-in:hover {
-    background-color: transparent;
-    color: inherit;
-    text-decoration: underline;
-  }
 
   #btn-sign-up {
     width: auto;
-    padding: 1rem 1.5rem;
+    padding: .5rem 1rem;
     margin-left: 1rem;
+  }
+
+  .div-hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2rem;
+  }
+
+  #img-hero {
+    width: 45%;
+    margin: -2rem 0 2rem 0;
+    order: 2;
+  }
+
+  .div-hero > div {
+    order: 1;
+    width: 50%;
+  }
+
+  .div-hero > div > h2 {
+    width: auto;
+  }
+
+  .div-hero > div > div:first-of-type {
+    width: auto;
+  }
+
+  .div-diversify {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .div-diversify > div:first-of-type {
+    width: 40%;
+  }
+
+  .div-img-wrapper {
+    width: 577px;
+    height: 433px;
+    margin: 0 0 -2rem 0;
+  }
+
+  .div-diversify > div > h3 {
+    font-size: 2rem;
+  }
+
+  .div-diversify > div > div {
+    width: 90%;
+  }
+
+  .list-testimonials {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .list-item-testimonial {
+    width: 32%;
+  }
+
+  footer {
+    display: flex;
+  }
+
+  footer > div:first-of-type {
+    width: 35%;
+  }
+
+  .div-footer-description {
+    width: 100%;
+  }
+
+  .footer-nav {
+    width: 65%;
+  }
+
+  .list-item-sublist {
+    flex: 4;
+  }
+
+  footer > div, .list-item-sublist {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1400px) {
+  header {
+    padding: 2rem 6rem 0 6rem;
   }
 
   .div-hero {
